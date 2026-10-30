@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>BounceQueue</title>
+    <link>https://github.com/machaelstudio/bouncequeue-releases/releases/download</link>
+    <item>
+      <title>BounceQueue 0.2</title>
+      <pubDate>Fri, 30 Oct 2026 15:45:39 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>BounceQueue 0.2</h2><ul><li>Your tag and mix label on every file: `{tag}` (&quot;machael mix&quot;) and `{label}` (&quot;MSTR v1&quot;) are set once in setup or the inspector, and each version has a short suffix (INST, ACA, TV) for `{suffix}`; the main mix has none. The standard scheme is now `{session} - {tag} - {label} - {suffix}`; existing queues keep their scheme until you pick &quot;Use the standard scheme&quot; in the tokens popover.</li><li>Audit window (toolbar clock, ⌥⌘A): a timeline of every bounce and upload with time, file, destination and duration, grouped by day, with filters, search, Finder and Samply links, CSV export and Clear History. Kept in `~/Library/Application Support/BounceQueue/audit.jsonl`.</li><li>Upload button in the toolbar next to Run Queue: a popover with the Samply uploads in progress (per-file progress), what finished and what failed.</li><li>Version rows can be edited by clicking straight into the name, suffix or track fields; the row the track picker follows is marked with a tint instead of list selection. Typing in them no longer stutters: the fields update the queue a moment after you stop typing.</li><li>The setup window stays away once finished or skipped, even after the app&#x27;s identity changed (the flag is now kept in the queue file too).</li><li>Your account in the toolbar: click your name for the license, Settings (profile, this Mac&#x27;s name, behaviour, Samply, updates), the Audit window and setup. Licensing works like PlugVault and Vessel, from the same Machael Studio portal: a 14-day trial, then a BQ- key with 3 seats; queues can still be set up without one, bouncing needs it.</li><li>In-app updates through Sparkle (weekly check, BounceQueue › Check for Updates…), and a release script that builds the disk image, signs and notarizes it, and publishes it with the appcast to machaelstudio/bouncequeue-releases.</li><li>Folder access prompts: the app&#x27;s Info.plist was missing its closing tag, so macOS could not read the bundle identifier and had nothing to remember a folder grant against; it asked again at every access. Fixed, and `build.sh` now signs with your Apple Development certificate when one is available, so grants survive rebuilds and the keychain accepts the Samply token.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelstudio/bouncequeue-releases/releases/download/v0.2/BounceQueue-0.2.dmg" sparkle:edSignature="NhgxHvjatChrxiDAf9IYnoR4TeGaYVSlJq8fLiIpKigPzKm7PaRPwyIbw019iHSF6iDy9t4d5YCv5U+gL908Bg==" length="16221562" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
