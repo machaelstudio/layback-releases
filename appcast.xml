@@ -4,6 +4,15 @@
     <title>Layback</title>
     <link>https://github.com/machaelstudio/layback-releases/releases/download</link>
     <item>
+      <title>Layback 0.4</title>
+      <pubDate>Sat, 31 Oct 2026 05:38:42 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Layback 0.4</h2><ul><li>Stems: a version can record instead of bouncing. Give it Record tracks (the print tracks of your template, `SongTitle *`), and Layback arms them, records between the START and END markers in real time, and takes each track&#x27;s file out of the session as its own stem, named by your scheme with the stem at the end: &quot;Night Drive - machael mix - MSTR v1 - DRUMS&quot;. The fixed part of the pattern is dropped from the stem name, so no renaming in the Finder afterwards.</li><li>Stems that carried nothing are left out: Pro Tools&#x27; scripting link has no meters, so every recorded take is measured and a print track whose peak stays under -80 dBFS (Output › Stems) is not delivered; its take is deleted when the session closes unsaved. Nothing is armed afterwards, and the transport&#x27;s record button goes back the way it was.</li><li>The track picker has a Record mode next to Mute and Solo (audio and instrument tracks only; an aux has no record button, so a stem printed through an aux needs an audio track fed from the same bus). The Audit window lists recorded stems with their level.</li><li>Stems need a range: with no START/END markers and no selection the stems version is reported as failed and the other versions go on.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelstudio/layback-releases/releases/download/v0.4/Layback-0.4.dmg" sparkle:edSignature="Gr7QrSUmIYRKytIKplvC5ozuS6BPRGAdEw3bEYrR6NXInRLx096U3HxlkvaFMNfjHLo8hQv1hzs6o89zEIRpBw==" length="16948369" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Layback 0.3</title>
       <pubDate>Sat, 31 Oct 2026 05:05:15 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
