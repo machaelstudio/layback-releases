@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>BounceQueue</title>
-    <link>https://github.com/machaelstudio/bouncequeue-releases/releases/download</link>
+    <title>Layback</title>
+    <link>https://github.com/machaelstudio/layback-releases/releases/download</link>
+    <item>
+      <title>Layback 0.3</title>
+      <pubDate>Sat, 31 Oct 2026 05:05:15 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Layback 0.3</h2><ul><li>New name, same app. The layback is the last step before a mix goes out, which is where this app sits. The website is machael.studio/layback and updates come from machaelstudio/layback-releases.</li><li>A new icon: the queue on a dark purple glass tile, two sessions printed and the third playing.</li><li>Everything comes along on the first launch: the queue, the audit trail, the licence and the Samply connection (the BounceQueue folder in Application Support is renamed to Layback), and the profile and setup flag BounceQueue kept are read when Layback has none yet.</li><li>Keys: new keys start with LB-. A BQ- key issued before the rename keeps working as a Layback key; the portal lists it under Layback.</li><li>An installed BounceQueue 0.2 cannot update itself into Layback (the app&#x27;s identity changed): download Layback once, drag it into Applications and delete the old app. Logs now go to ~/Library/Logs/Layback.</li><li>For scripts: the command-line tool is `layback-cli` and the hooks are `LAYBACK_*` (`LAYBACK_FAKE`, `LAYBACK_VIEW`, `LAYBACK_QUEUE`…).</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelstudio/layback-releases/releases/download/v0.3/Layback-0.3.dmg" sparkle:edSignature="eSbJCRCztm1KoykkZjuHAPwXQHL11URnziHJlW6fLxTndPTbQDQ0fYCmZ99is6niDTKGfU13HdXrgiZAzR4ACw==" length="16810845" type="application/octet-stream"/>
+    </item>
     <item>
       <title>BounceQueue 0.2</title>
       <pubDate>Fri, 30 Oct 2026 15:45:39 +0000</pubDate>
