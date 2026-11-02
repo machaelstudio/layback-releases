@@ -4,6 +4,15 @@
     <title>Layback</title>
     <link>https://github.com/machaelstudio/layback-releases/releases/download</link>
     <item>
+      <title>Layback 0.6.1</title>
+      <pubDate>Mon, 02 Nov 2026 21:15:33 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Layback 0.6.1</h2><ul><li>0.6 still would not open on macOS 12, and 0.5 and 0.6 never opened on macOS 13 or 14 either: the app crashed at launch with &quot;Library not loaded: libswiftCompatibilitySpan.dylib&quot;. That is a small Swift support library which macOS 15 and later have built in and older systems do not; the app now carries its own copy. Nothing else changed.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelstudio/layback-releases/releases/download/v0.6.1/Layback-0.6.1.dmg" sparkle:edSignature="wMR3evuChW67oKZp3m3vtUZQHtu4ariVDittuMiPqFLJfiGq4cPLDtHfFFYssxB8fVPmCyNhO2UfVRgwPz5YDQ==" length="17593179" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Layback 0.6</title>
       <pubDate>Mon, 02 Nov 2026 21:00:01 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
