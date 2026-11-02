@@ -4,6 +4,15 @@
     <title>Layback</title>
     <link>https://github.com/machaelstudio/layback-releases/releases/download</link>
     <item>
+      <title>Layback 0.6.2</title>
+      <pubDate>Mon, 02 Nov 2026 23:33:31 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Layback 0.6.2</h2><ul><li>When Pro Tools cannot be reached, Setup and the inspector now say why, in Pro Tools&#x27; own words (a refused connection, a command it rejected, a timeout), instead of only &quot;Not running&quot;.</li><li>The hint about &quot;Setup › Peripherals › Scripting › Enable Scripting Server&quot; is gone: no such setting exists. Pro Tools starts its scripting server by itself (since 2022.9); Layback needs Pro Tools 2023.3 or newer on the same Mac, nothing more.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelstudio/layback-releases/releases/download/v0.6.2/Layback-0.6.2.dmg" sparkle:edSignature="HQtIISBYfTX36xbA8OUMsztnCpgeUJHUM4tMBaG9Pd05BlP1+QdL9Lcul+q0Mu+Z8Ck49ECEX9Tc4XnzOiiLBw==" length="17599629" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Layback 0.6.1</title>
       <pubDate>Mon, 02 Nov 2026 21:15:33 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
