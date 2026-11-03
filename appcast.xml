@@ -4,6 +4,15 @@
     <title>Layback</title>
     <link>https://github.com/machaelstudio/layback-releases/releases/download</link>
     <item>
+      <title>Layback 0.6.3</title>
+      <pubDate>Tue, 03 Nov 2026 00:28:22 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Layback 0.6.3</h2><ul><li>Pro Tools 2024.10 and earlier (2023.3 up to 2024.10) work again. Layback spoke the 2025.6 version of Avid&#x27;s scripting protocol, which spells its values differently (&quot;TLFilter_All&quot; where 2024.10 only knows &quot;All&quot;), so on those versions Layback connected but every scan failed on reading the track list, and a bounce would have failed the same way. Layback now asks Pro Tools which version it speaks right after connecting and uses the older spellings and fields with 2024.10 and before. On those versions a bounce covers the timeline selection set from the markers rather than an explicit range, and MP3 bounces use Pro Tools&#x27; own MP3 settings.</li><li>Range › Current selection now shows what is selected in the timeline: scanning the session reads the selection and the tab lists it (or says that nothing is selected). The bounce still uses whatever is selected when it starts.</li><li>Typing: the Tag, Label, File name, Start/End marker and mix-source fields no longer write to the queue on every keystroke, which made them stutter and drop clicks on slower Macs; and clicking into a version row&#x27;s fields no longer fights the row&#x27;s own click handling, so text can be selected and edited normally again.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelstudio/layback-releases/releases/download/v0.6.3/Layback-0.6.3.dmg" sparkle:edSignature="CnRf7h1RpCrEFuLUKc0VrUwds3RA5jtCK9mh7k5mFg+JD0870d66LnQvH3tWY7uUvTJrI9qTN6s0lrD/JgpmDQ==" length="17639418" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Layback 0.6.2</title>
       <pubDate>Mon, 02 Nov 2026 23:33:31 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
